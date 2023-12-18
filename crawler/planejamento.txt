@@ -1,0 +1,8 @@
+index              
+assunto:           .ng-binding
+about:             .resumo-questao.ng-binding.ng-scope
+conteudo:          .questao-enunciado-texto.embonitar.espacamento-3
+alternativas:      .questao-enunciado-alternativa-texto.questao-enuncado-alternativa-texto-espacamento
+gabarito:          li.ng-scope correcao
+banca:             .resumo-questao.ng-binding.ng-scope
+materia:           .questao-cabecalho-informacoes-materia a

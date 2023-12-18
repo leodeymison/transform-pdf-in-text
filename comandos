@@ -1,0 +1,11 @@
+pdfimages -png '/data2/Engenharia Civil/Agente De Controle Externo - Engenharia Civil - TCEAL/agente_de_controle_externo_engenharia_civil.pdf' /images/files
+
+
+find ./images -type f -exec identify -format "%w %i\n" {} + | awk '$1 > 1000 {print $2}' | xargs rm
+
+find ./images -type f -size -10k -deletefind ./images -type f -size -10k -delete
+
+fdupes -r -f -1 -d ./images
+
+fdupes -r -f ./images | awk '!($0 in a) {a[$0]; print}' | xargs rm
+

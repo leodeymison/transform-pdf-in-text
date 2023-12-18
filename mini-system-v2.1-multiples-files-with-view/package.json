@@ -1,0 +1,21 @@
+{
+  "name": "mini-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^9.1.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf-puppeteer": "^1.1.11",
+    "pdf2json": "^3.0.5",
+    "pdf2pic": "^3.1.0",
+    "pdfjs-dist": "^4.0.269"
+  }
+}

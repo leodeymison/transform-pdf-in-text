@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span, input, button {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+}
+
+#main {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#progress {
+    /* display: flex;/ */
+    display: none;
+    align-items: center;
+}
+
+#progress #progress_bar {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 100px;
+    border: solid 1px #a8a8a8;
+    padding: 1px;
+}
+
+#progress #progress_bar #progress_bar_span {
+    height: 100%;
+    border-radius: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#progress #progress_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #c7c7c7;
+}
+input:focus {
+    outline-color: #b7b6b6;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: solid 1px #c7c7c7;
+    cursor: pointer;
+}
+button.btn-primary {
+    border: solid 1px #0381ca;
+    background-color: #0381ca;
+    color: white;
+}
+
+.ContainerRight {
+    display: flex;
+    justify-content: flex-end;
+}
